@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C529F4B91F0F69D100DDB4EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C529F4B81F0F69D100DDB4EE /* AppDelegate.swift */; };
+		C529F4BB1F0F69D100DDB4EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C529F4BA1F0F69D100DDB4EE /* ViewController.swift */; };
+		C529F4BE1F0F69D100DDB4EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C529F4BC1F0F69D100DDB4EE /* Main.storyboard */; };
+		C529F4C01F0F69D100DDB4EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C529F4BF1F0F69D100DDB4EE /* Assets.xcassets */; };
+		C529F4C31F0F69D100DDB4EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C529F4C11F0F69D100DDB4EE /* LaunchScreen.storyboard */; };
+		C529F4D91F10D38400DDB4EE /* The Sound of Silence.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C529F4CC1F10D38400DDB4EE /* The Sound of Silence.mp3 */; };
+		C529F4DA1F10D38400DDB4EE /* 动一动01.gif in Resources */ = {isa = PBXBuildFile; fileRef = C529F4CE1F10D38400DDB4EE /* 动一动01.gif */; };
+		C529F4DB1F10D38400DDB4EE /* 动一动02.gif in Resources */ = {isa = PBXBuildFile; fileRef = C529F4CF1F10D38400DDB4EE /* 动一动02.gif */; };
+		C529F4DC1F10D38400DDB4EE /* 动一动03.gif in Resources */ = {isa = PBXBuildFile; fileRef = C529F4D01F10D38400DDB4EE /* 动一动03.gif */; };
+		C529F4DD1F10D38400DDB4EE /* 动一动04.gif in Resources */ = {isa = PBXBuildFile; fileRef = C529F4D11F10D38400DDB4EE /* 动一动04.gif */; };
+		C529F4DE1F10D38400DDB4EE /* 动一动05.gif in Resources */ = {isa = PBXBuildFile; fileRef = C529F4D21F10D38400DDB4EE /* 动一动05.gif */; };
+		C529F4DF1F10D38400DDB4EE /* 跑了01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C529F4D41F10D38400DDB4EE /* 跑了01.jpg */; };
+		C529F4E01F10D38400DDB4EE /* 跑了02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C529F4D51F10D38400DDB4EE /* 跑了02.jpg */; };
+		C529F4E11F10D38400DDB4EE /* 跑了03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C529F4D61F10D38400DDB4EE /* 跑了03.jpg */; };
+		C529F4E21F10D38400DDB4EE /* 难念的经.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C529F4D81F10D38400DDB4EE /* 难念的经.mp4 */; };
+		C529F4E41F11058D00DDB4EE /* 跑了04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C529F4E31F11058D00DDB4EE /* 跑了04.jpg */; };
+		C529F4E61F11062B00DDB4EE /* 跑了00.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C529F4E51F11062B00DDB4EE /* 跑了00.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C529F4B51F0F69D100DDB4EE /* 通知的使用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "通知的使用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C529F4B81F0F69D100DDB4EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C529F4BA1F0F69D100DDB4EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C529F4BD1F0F69D100DDB4EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C529F4BF1F0F69D100DDB4EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C529F4C21F0F69D100DDB4EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C529F4C41F0F69D100DDB4EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C529F4CC1F10D38400DDB4EE /* The Sound of Silence.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Sound of Silence.mp3"; sourceTree = "<group>"; };
+		C529F4CE1F10D38400DDB4EE /* 动一动01.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "动一动01.gif"; sourceTree = "<group>"; };
+		C529F4CF1F10D38400DDB4EE /* 动一动02.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "动一动02.gif"; sourceTree = "<group>"; };
+		C529F4D01F10D38400DDB4EE /* 动一动03.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "动一动03.gif"; sourceTree = "<group>"; };
+		C529F4D11F10D38400DDB4EE /* 动一动04.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "动一动04.gif"; sourceTree = "<group>"; };
+		C529F4D21F10D38400DDB4EE /* 动一动05.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "动一动05.gif"; sourceTree = "<group>"; };
+		C529F4D41F10D38400DDB4EE /* 跑了01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "跑了01.jpg"; sourceTree = "<group>"; };
+		C529F4D51F10D38400DDB4EE /* 跑了02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "跑了02.jpg"; sourceTree = "<group>"; };
+		C529F4D61F10D38400DDB4EE /* 跑了03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "跑了03.jpg"; sourceTree = "<group>"; };
+		C529F4D81F10D38400DDB4EE /* 难念的经.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "难念的经.mp4"; sourceTree = "<group>"; };
+		C529F4E31F11058D00DDB4EE /* 跑了04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "跑了04.jpg"; sourceTree = "<group>"; };
+		C529F4E51F11062B00DDB4EE /* 跑了00.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "跑了00.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C529F4B21F0F69D100DDB4EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C529F4AC1F0F69D100DDB4EE = {
+			isa = PBXGroup;
+			children = (
+				C529F4B71F0F69D100DDB4EE /* 通知的使用 */,
+				C529F4B61F0F69D100DDB4EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C529F4B61F0F69D100DDB4EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C529F4B51F0F69D100DDB4EE /* 通知的使用.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C529F4B71F0F69D100DDB4EE /* 通知的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				C529F4B81F0F69D100DDB4EE /* AppDelegate.swift */,
+				C529F4BA1F0F69D100DDB4EE /* ViewController.swift */,
+				C529F4BC1F0F69D100DDB4EE /* Main.storyboard */,
+				C529F4CA1F10D38400DDB4EE /* Resource */,
+				C529F4BF1F0F69D100DDB4EE /* Assets.xcassets */,
+				C529F4C11F0F69D100DDB4EE /* LaunchScreen.storyboard */,
+				C529F4C41F0F69D100DDB4EE /* Info.plist */,
+			);
+			path = "通知的使用";
+			sourceTree = "<group>";
+		};
+		C529F4CA1F10D38400DDB4EE /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				C529F4CB1F10D38400DDB4EE /* Audio */,
+				C529F4CD1F10D38400DDB4EE /* Gif */,
+				C529F4D31F10D38400DDB4EE /* Jpg */,
+				C529F4D71F10D38400DDB4EE /* Video */,
+			);
+			name = Resource;
+			path = ../../Resource;
+			sourceTree = "<group>";
+		};
+		C529F4CB1F10D38400DDB4EE /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				C529F4CC1F10D38400DDB4EE /* The Sound of Silence.mp3 */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		C529F4CD1F10D38400DDB4EE /* Gif */ = {
+			isa = PBXGroup;
+			children = (
+				C529F4CE1F10D38400DDB4EE /* 动一动01.gif */,
+				C529F4CF1F10D38400DDB4EE /* 动一动02.gif */,
+				C529F4D01F10D38400DDB4EE /* 动一动03.gif */,
+				C529F4D11F10D38400DDB4EE /* 动一动04.gif */,
+				C529F4D21F10D38400DDB4EE /* 动一动05.gif */,
+			);
+			path = Gif;
+			sourceTree = "<group>";
+		};
+		C529F4D31F10D38400DDB4EE /* Jpg */ = {
+			isa = PBXGroup;
+			children = (
+				C529F4E51F11062B00DDB4EE /* 跑了00.jpg */,
+				C529F4D41F10D38400DDB4EE /* 跑了01.jpg */,
+				C529F4D51F10D38400DDB4EE /* 跑了02.jpg */,
+				C529F4D61F10D38400DDB4EE /* 跑了03.jpg */,
+				C529F4E31F11058D00DDB4EE /* 跑了04.jpg */,
+			);
+			path = Jpg;
+			sourceTree = "<group>";
+		};
+		C529F4D71F10D38400DDB4EE /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				C529F4D81F10D38400DDB4EE /* 难念的经.mp4 */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C529F4B41F0F69D100DDB4EE /* 通知的使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C529F4C71F0F69D100DDB4EE /* Build configuration list for PBXNativeTarget "通知的使用" */;
+			buildPhases = (
+				C529F4B11F0F69D100DDB4EE /* Sources */,
+				C529F4B21F0F69D100DDB4EE /* Frameworks */,
+				C529F4B31F0F69D100DDB4EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "通知的使用";
+			productName = "通知的使用";
+			productReference = C529F4B51F0F69D100DDB4EE /* 通知的使用.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C529F4AD1F0F69D100DDB4EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "史祺淳";
+				TargetAttributes = {
+					C529F4B41F0F69D100DDB4EE = {
+						CreatedOnToolsVersion = 9.0;
+					};
+				};
+			};
+			buildConfigurationList = C529F4B01F0F69D100DDB4EE /* Build configuration list for PBXProject "通知的使用" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C529F4AC1F0F69D100DDB4EE;
+			productRefGroup = C529F4B61F0F69D100DDB4EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C529F4B41F0F69D100DDB4EE /* 通知的使用 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C529F4B31F0F69D100DDB4EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C529F4E61F11062B00DDB4EE /* 跑了00.jpg in Resources */,
+				C529F4D91F10D38400DDB4EE /* The Sound of Silence.mp3 in Resources */,
+				C529F4DD1F10D38400DDB4EE /* 动一动04.gif in Resources */,
+				C529F4E41F11058D00DDB4EE /* 跑了04.jpg in Resources */,
+				C529F4DC1F10D38400DDB4EE /* 动一动03.gif in Resources */,
+				C529F4DB1F10D38400DDB4EE /* 动一动02.gif in Resources */,
+				C529F4DE1F10D38400DDB4EE /* 动一动05.gif in Resources */,
+				C529F4DF1F10D38400DDB4EE /* 跑了01.jpg in Resources */,
+				C529F4C31F0F69D100DDB4EE /* LaunchScreen.storyboard in Resources */,
+				C529F4C01F0F69D100DDB4EE /* Assets.xcassets in Resources */,
+				C529F4E01F10D38400DDB4EE /* 跑了02.jpg in Resources */,
+				C529F4E21F10D38400DDB4EE /* 难念的经.mp4 in Resources */,
+				C529F4E11F10D38400DDB4EE /* 跑了03.jpg in Resources */,
+				C529F4BE1F0F69D100DDB4EE /* Main.storyboard in Resources */,
+				C529F4DA1F10D38400DDB4EE /* 动一动01.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C529F4B11F0F69D100DDB4EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C529F4BB1F0F69D100DDB4EE /* ViewController.swift in Sources */,
+				C529F4B91F0F69D100DDB4EE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C529F4BC1F0F69D100DDB4EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C529F4BD1F0F69D100DDB4EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C529F4C11F0F69D100DDB4EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C529F4C21F0F69D100DDB4EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C529F4C51F0F69D100DDB4EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C529F4C61F0F69D100DDB4EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C529F4C81F0F69D100DDB4EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DVFNW8928B;
+				INFOPLIST_FILE = "通知的使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.imemyself.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C529F4C91F0F69D100DDB4EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DVFNW8928B;
+				INFOPLIST_FILE = "通知的使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.imemyself.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C529F4B01F0F69D100DDB4EE /* Build configuration list for PBXProject "通知的使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C529F4C51F0F69D100DDB4EE /* Debug */,
+				C529F4C61F0F69D100DDB4EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C529F4C71F0F69D100DDB4EE /* Build configuration list for PBXNativeTarget "通知的使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C529F4C81F0F69D100DDB4EE /* Debug */,
+				C529F4C91F0F69D100DDB4EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C529F4AD1F0F69D100DDB4EE /* Project object */;
+}
